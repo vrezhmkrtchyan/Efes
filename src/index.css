@@ -1,0 +1,137 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: 'Satoshi', sans-serif;
+    src: url('./Assets/Fonts/Satoshi-Black.eot');
+    src: url('./Assets/Fonts/Satoshi-Black.eot?#iefix') format('embedded-opentype'),
+        url('./Assets/Fonts/Satoshi-Black.woff2') format('woff2'),
+        url('./Assets/Fonts/Satoshi-Black.woff') format('woff'),
+        url('./Assets/Fonts/Satoshi-Black.ttf') format('truetype'),
+        url('./Assets/Fonts/Satoshi-Black.svg#Satoshi-Black') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi', sans-serif;
+    src: url('./Assets/Fonts/Satoshi-BoldItalic.eot');
+    src: url('./Assets/Fonts/Satoshi-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./Assets/Fonts/Satoshi-BoldItalic.woff2') format('woff2'),
+        url('./Assets/Fonts/Satoshi-BoldItalic.woff') format('woff'),
+        url('./Assets/Fonts/Satoshi-BoldItalic.ttf') format('truetype'),
+        url('./Assets/Fonts/Satoshi-BoldItalic.svg#Satoshi-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi', sans-serif;
+    src: url('./Assets/Fonts/Satoshi-BlackItalic.eot');
+    src: url('./Assets/Fonts/Satoshi-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('./Assets/Fonts/Satoshi-BlackItalic.woff2') format('woff2'),
+        url('./Assets/Fonts/Satoshi-BlackItalic.woff') format('woff'),
+        url('./Assets/Fonts/Satoshi-BlackItalic.ttf') format('truetype'),
+        url('./Assets/Fonts/Satoshi-BlackItalic.svg#Satoshi-BlackItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi', sans-serif;
+    src: url('./Assets/Fonts/Satoshi-Italic.eot');
+    src: url('./Assets/Fonts/Satoshi-Italic.eot?#iefix') format('embedded-opentype'),
+        url('./Assets/Fonts/Satoshi-Italic.woff2') format('woff2'),
+        url('./Assets/Fonts/Satoshi-Italic.woff') format('woff'),
+        url('./Assets/Fonts/Satoshi-Italic.ttf') format('truetype'),
+        url('./Assets/Fonts/Satoshi-Italic.svg#Satoshi-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi', sans-serif;
+    src: url('./Assets/Fonts/Satoshi-Bold.eot');
+    src: url('./Assets/Fonts/Satoshi-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./Assets/Fonts/Satoshi-Bold.woff2') format('woff2'),
+        url('./Assets/Fonts/Satoshi-Bold.woff') format('woff'),
+        url('./Assets/Fonts/Satoshi-Bold.ttf') format('truetype'),
+        url('./Assets/Fonts/Satoshi-Bold.svg#Satoshi-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi', sans-serif;
+    src: url('./Assets/Fonts/Satoshi-Medium.eot');
+    src: url('./Assets/Fonts/Satoshi-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./Assets/Fonts/Satoshi-Medium.woff2') format('woff2'),
+        url('./Assets/Fonts/Satoshi-Medium.woff') format('woff'),
+        url('./Assets/Fonts/Satoshi-Medium.ttf') format('truetype'),
+        url('./Assets/Fonts/Satoshi-Medium.svg#Satoshi-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi', sans-serif;
+    src: url('./Assets/Fonts/Satoshi-Regular.eot');
+    src: url('./Assets/Fonts/Satoshi-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./Assets/Fonts/Satoshi-Regular.woff2') format('woff2'),
+        url('./Assets/Fonts/Satoshi-Regular.woff') format('woff'),
+        url('./Assets/Fonts/Satoshi-Regular.ttf') format('truetype'),
+        url('./Assets/Fonts/Satoshi-Regular.svg#Satoshi-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi', sans-serif;
+    src: url('./Assets/Fonts/Satoshi-Light.eot');
+    src: url('./Assets/Fonts/Satoshi-Light.eot?#iefix') format('embedded-opentype'),
+        url('./Assets/Fonts/Satoshi-Light.woff2') format('woff2'),
+        url('./Assets/Fonts/Satoshi-Light.woff') format('woff'),
+        url('./Assets/Fonts/Satoshi-Light.ttf') format('truetype'),
+        url('./Assets/Fonts/Satoshi-Light.svg#Satoshi-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi', sans-serif;
+    src: url('./Assets/Fonts/Satoshi-LightItalic.eot');
+    src: url('./Assets/Fonts/Satoshi-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('./Assets/Fonts/Satoshi-LightItalic.woff2') format('woff2'),
+        url('./Assets/Fonts/Satoshi-LightItalic.woff') format('woff'),
+        url('./Assets/Fonts/Satoshi-LightItalic.ttf') format('truetype'),
+        url('./Assets/Fonts/Satoshi-LightItalic.svg#Satoshi-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi', sans-serif;
+    src: url('./Assets/Fonts/Satoshi-MediumItalic.eot');
+    src: url('./Assets/Fonts/Satoshi-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('./Assets/Fonts/Satoshi-MediumItalic.woff2') format('woff2'),
+        url('./Assets/Fonts/Satoshi-MediumItalic.woff') format('woff'),
+        url('./Assets/Fonts/Satoshi-MediumItalic.ttf') format('truetype'),
+        url('./Assets/Fonts/Satoshi-MediumItalic.svg#Satoshi-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+@tailwind utilities;
