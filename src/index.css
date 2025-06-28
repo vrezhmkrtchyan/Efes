@@ -5,3 +5,10 @@
 @theme {
   --font-satoshi: "Satoshi", "sans-serif";
 }
+
+.X53v391{
+  height: calc(95vh - 2rem);
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+}

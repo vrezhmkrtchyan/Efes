@@ -5,12 +5,10 @@ import eyeClose from '../../Assets/Images/eye-closed.svg'
 import eyeOpen from '../../Assets/Images/eye-opened.svg'
 import { NavLink } from 'react-router-dom';
 import SpinnerForButtons from '../../Ui/Loaders/SpinnerForButtons';
+import { AuthRoutes } from '../../Routes/Routes';
+import type { FormValues } from '../../Types/FormsTypes/FormsTypes';
 
 
-interface FormValues {
-    email: string,
-    password: string
-}
 
 const SignInForm = (): JSX.Element => {
     const [isPass, setIsPass] = useState<boolean>(false)
@@ -70,7 +68,7 @@ const SignInForm = (): JSX.Element => {
                 )}
             </Formik>
             <div>
-                <p className='tracking-[0.5px] text-[14px] font-normal font-satoshi text-[#131315]'>Forgot password? <NavLink to={"/"} className='underline decoration-[1.2px] underline-offset-2 duration-300 ease-in-out hover:opacity-70'>Recover account</NavLink></p>
+                <p className='tracking-[0.5px] text-[14px] font-normal font-satoshi text-[#131315]'>Forgot password? <NavLink to={AuthRoutes.ForgotPassword} className='underline decoration-[1.2px] underline-offset-2 duration-300 ease-in-out hover:opacity-70'>Recover account</NavLink></p>
             </div>
         </div>
     )

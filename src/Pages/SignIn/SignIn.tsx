@@ -4,7 +4,7 @@ import SignInC from "../../Components/SignInC/SignInC"
 
 const SignIn = (): JSX.Element => {
     return (
-        <div className="h-[calc(95vh-2rem)] flex items-center m-[2rem]">
+        <div className="X53v391">
             <Slider />
             <SignInC />
         </div>

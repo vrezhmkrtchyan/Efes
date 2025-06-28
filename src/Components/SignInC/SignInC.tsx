@@ -15,7 +15,7 @@ const SignInC = (): JSX.Element => {
                     <NavLink className={({ isActive }) => `flex-1/2 flex items-center justify-center cursor-pointer rounded-[0.5rem] font-medium text-[1rem] tracking-[0.5px] w-full h-full duration-[0.3s] ease-linear font-satoshi ${isActive ? 'bg-[#2B56EF] text-[#EDEEF6]' : "bg-[#ECF0FF] text-[#565656]"} hover:opacity-70`} to={AuthRoutes.signUp}>
                         Sign Up
                     </NavLink>
-                    <NavLink className={({ isActive }) => `flex-1/2 flex items-center justify-center cursor-pointer rounded-[0.5rem] font-medium text-[1rem] tracking-[0.5px] w-full h-full  duration-[0.3s] ease-linear font-satoshi ${isActive ? 'bg-[#2B56EF] text-[#EDEEF6]' : "bg-[#ECF0FF] text-[#565656]"} hover:opacity-70`} to={AuthRoutes.signIn}>
+                    <NavLink  className={({ isActive }) => `flex-1/2 flex items-center justify-center cursor-pointer rounded-[0.5rem] font-medium text-[1rem] tracking-[0.5px] w-full h-full  duration-[0.3s] ease-linear font-satoshi ${isActive ? 'bg-[#2B56EF] text-[#EDEEF6]' : "bg-[#ECF0FF] text-[#565656]"} hover:opacity-70`} to={AuthRoutes.signIn}>
                         Sign In
                     </NavLink>
                 </div>
