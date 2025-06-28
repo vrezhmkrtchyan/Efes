@@ -1,27 +1,19 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { RootState } from "../../Store";
+import type { IAuthenticationState } from "./AuthenticationTypes";
 
-interface AuthenticationState  {
-    access_token: string,
-    refresh_token: string,
-}
-
-const initialState: AuthenticationState = {
-    access_token: "",
-    refresh_token: "",
-}
+const initialState: IAuthenticationState = {
+  access_token: "",
+  refresh_token: "",
+};
 
 const AuthenticationSlice = createSlice({
-    name: "AuthenticationData",
-    initialState,
-    reducers: {
+  name: "AuthenticationData",
+  initialState,
+  reducers: {},
 
-    },
-    extraReducers: (builder) => {
-      
-    }
-})
+  extraReducers: (builder) => {},
+});
 
-
-export const AuthenticationReducer = AuthenticationSlice.reducer
-export const selectAuth = (state: RootState) => state.AuthenticationData
+export const AuthenticationReducer = AuthenticationSlice.reducer;
+export const selectAuth = (state: RootState) => state.AuthenticationData;
